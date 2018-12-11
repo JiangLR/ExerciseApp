@@ -5,12 +5,12 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   app:layout_behavior="@string/appbar_scrolling_view_behavior"
-  tools:context=".HomeActivity"
-  tools:showIn="@layout/activity_home">
+  tools:context=".Personal_CenterActivity"
+  tools:showIn="@layout/activity_personal__center">
 
   <fragment
-    android:id="@+id/fragment_home"
-    android:name="cn.edu.zucc.exerciseapp.HomeFragment"
+    android:id="@+id/fragment_personal"
+    android:name="cn.edu.zucc.exerciseapp.Personal_CenterFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
 

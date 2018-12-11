@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/primary"
+  tools:context=".QRCodeFragment">
+
+  <!-- TODO: Update blank fragment layout -->
+  <RelativeLayout
+    android:id="@+id/relativelayout_top"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginRight="70dp">
+
+    <ImageView
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:src="@mipmap/bike" />
+
+    <ImageView
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentBottom="true"
+      android:src="@mipmap/left_top" />
+
+    <ImageView
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:src="@mipmap/right_top" />
+
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/relativelayout_but"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_below="@id/relativelayout_top"
+    android:layout_alignLeft="@id/relativelayout_top"
+    android:layout_alignRight="@id/relativelayout_top"
+    android:layout_marginTop="30dp">
+
+    <ImageView
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentBottom="true"
+      android:src="@mipmap/left_bottom" />
+
+    <ImageView
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:src="@mipmap/right_bottom" />
+
+  </RelativeLayout>
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/relativelayout_but"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="11dp"
+    android:text="对准车上的二维码"
+    android:textColor="#ffffff" />
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="160dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+      android:id="@+id/hand"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="85dp"
+      android:layout_marginTop="20dp"
+      android:background="@mipmap/hand" />
+
+    <ImageView
+      android:id="@+id/light"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_alignParentRight="true"
+      android:layout_marginTop="20dp"
+      android:layout_marginRight="85dp"
+      android:background="@mipmap/light" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/hand"
+      android:layout_marginLeft="65dp"
+      android:layout_alignParentLeft="true"
+      android:text="请输入订单编号"
+      android:textColor="#ffffff" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/light"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="75dp"
+      android:text="打开手电筒"
+      android:textColor="#ffffff" />
+
+  </RelativeLayout>
+
+</RelativeLayout>

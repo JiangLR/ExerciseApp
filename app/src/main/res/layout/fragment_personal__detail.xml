@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".Personal_DetailFragment">
+
+  <!-- TODO: Update blank fragment layout -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp">
+
+      <TextView
+        android:id="@+id/detail_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:text="头像"
+        android:textSize="15dp" />
+
+      <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/header"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="1dp" />
+
+      <ImageView
+        android:id="@+id/personal_return_a"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/navigate_next" />
+
+
+    </LinearLayout>
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="#DFDFDF"/>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp">
+
+      <TextView
+        android:id="@+id/detail_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:text="昵称"
+        android:textSize="15dp" />
+
+      <ImageView
+        android:id="@+id/personal_return_b"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/navigate_next" />
+
+
+    </LinearLayout>
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="#DFDFDF"/>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp">
+
+      <TextView
+        android:id="@+id/name_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:text="姓名"
+        android:textSize="15dp" />
+
+      <ImageView
+        android:id="@+id/personal_return_c"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/navigate_next" />
+
+
+    </LinearLayout>
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="#DFDFDF"/>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp">
+
+      <TextView
+        android:id="@+id/name_detail_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:text="实名认证"
+        android:textSize="15dp" />
+
+      <ImageView
+        android:id="@+id/personal_return_d"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/navigate_next" />
+
+
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#DFDFDF"/>
+  </LinearLayout>
+
+</RelativeLayout>
